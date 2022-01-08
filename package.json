@@ -1,0 +1,13 @@
+{
+  "name": "mern-movie-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "npm run watch --prefix backend",
+    "client": "npm run start --prefix frontend",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC"
+}

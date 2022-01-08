@@ -1,0 +1,16 @@
+
+POST http://localhost:3001/create
+Content-Type: application/json
+
+{
+  "title": "Saw",
+  "description": "Horror movie",
+  "actors": "John, Ens, Toik",
+  "rate": 5,
+  "gender": "horror",
+  "regi": "John",
+  "movielength": 6,
+  "year": "2021"
+}
+
+##
